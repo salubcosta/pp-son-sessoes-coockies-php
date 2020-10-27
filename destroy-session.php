@@ -1,4 +1,7 @@
 <?php
 session_start();
 
-unset($_SESSION['name']);
+/**
+ * Destroi todos os dados registrados para uma sessão
+ */
+session_destroy();
